@@ -60,18 +60,17 @@ header a {
 
 .top-menu li {
     display: inline-block;
-
 }
 
 .top-menu li a {
     display: block;
-    padding: 30px 20px;
-    margin-right: -0.2em;
     text-decoration: none;
     text-transform: uppercase;
+    padding: 30px 20px;
+    margin-right: -0.2em;
 }
 
-.top-menu li a:hover {
+.top-menu li:hover {
     background: #242424;
 }
 
