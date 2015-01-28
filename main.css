@@ -353,3 +353,99 @@ footer:after {
 .reset-background {
     background: url(images/bg-section.jpg);
 }
+
+.page-title {
+    margin-top: 3.75em;
+}
+
+.page-title h1 {
+    font-size: 1.875em;
+    text-transform: uppercase;
+}
+
+.bread-crumbs li {
+    display: inline-block;
+}
+
+.bread-crumbs ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.bread-crumbs a {
+    text-decoration: none;
+    color: #000;
+}
+
+.inner-content {
+    margin: 3.75em 0;   
+}
+
+.inner-content:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.inner-column-left {
+    float: left;
+    width: 460px;
+}
+
+.inner-column-right {
+    float: right;
+    width: 460px;
+}
+
+.mega-title h2 {
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.inner-column-table table {
+    width: 456px;
+    height: 124px;
+    font-size: 0.875em;
+    text-transform: uppercase;
+    line-height: 1.71;
+    margin-bottom: 9.28em;
+    border: 2px solid #000;
+    border-collapse: collapse;
+}
+
+.inner-column-table td {
+    border: 2px solid #000; 
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    padding-left: 1.42em;
+}
+.inner-column-table td:last-child {
+    text-align: center;
+}
+
+.inner-column-title {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    line-height: 1.25;
+    margin-bottom: 1.666em;
+    margin-top: 2.91em;
+}
+
+.inner-content-title ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.inner-content-title li {
+    direction: block;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 24px;
+    margin-bottom: 7px;
+}
