@@ -644,6 +644,10 @@ input[type="radio"]:checked + label:before {
     vertical-align: middle;
 }
 
+.btn-buy:hover {
+    background: #663D15;    
+}
+
 .content-column:hover .btn-buy {
     background: #663D15;
 }
@@ -697,3 +701,116 @@ input[type="radio"]:checked + label:before {
     background-color: #fff;
     color: #000;
 }
+/*item*/
+
+.bread-crums-item {
+    margin: 60px 0 40px 0;
+}
+
+.item-foto-big {
+    width: 460px;
+    height: 498px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.item-foto-mini {
+    float: left;
+    font-size: 0;
+    margin-right: 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);    
+}
+
+.item-foto-mini:last-child {
+    margin: 0px;
+}
+
+.item-content-left {
+    float: left;
+    width: 460px;
+}
+
+.item-content:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.item-content {
+    margin-bottom: 85px;    
+}
+
+.item-content-rigth {
+    float: left;
+    width: 460px;
+    margin: 0;
+    padding: 0;
+}
+
+.item-title {
+    margin: 0 0 30px 90px; 
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.title-company {
+    font-size: 24px;
+    line-height: 42px;
+    margin: 0 0 30px 90px;
+    text-transform: uppercase;
+}
+
+.item-buy-position {
+    margin: 0 0 30px 90px;
+    font-size: 0;
+}
+
+.item-article {
+    margin: 0 0 30px 90px;
+}
+.item-article::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.item-article-1 {
+    float: left;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase
+}
+
+.item-article-2 {
+    float: right;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #aeaeae;
+}
+
+.item-description-full {
+    margin: 0 0 30px 90px;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.item-list {
+    margin: 0 0 30px 90px;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding: 0;
+    list-style: none;
+}
+
+.item-list li:before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #000;
+    display: inline-block;
+    transform: rotate(45deg);
+    margin-right: 20px;
+}    
